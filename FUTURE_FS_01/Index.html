@@ -10,7 +10,14 @@
     <header id="site-header">
         <div class="logo">GR VHULAHANI</div>
         <h1>Welcome to my website</h1>
-        <nav class="main-nav" id="main-nav">Navigation</nav>
+        <nav class="main-nav" id="main-nav">
+            
+            <a href="#about">About</a><br>
+            <a href="#projects-section">Projects</a><br>
+            <a href="#contact-section">Contact Info</a><br>
+            <a href="social-links">Socials</a>
+        </nav>
+
     </header>
 
     <section id="about" class="about">
@@ -33,7 +40,8 @@
         <div>
             <h3>My Certifcations</h3>
             <ul>
-                <a href="https://www.credly.com/earner/earned/badge/416b1afa-7e5a-4c55-add1-2150728c3bf8">CISCO: Networking Basics</a>
+                <li><a href="https://www.credly.com/earner/earned/badge/416b1afa-7e5a-4c55-add1-2150728c3bf8">CISCO: Networking Basics</a></li>
+                <li><a href="https://www.credly.com/earner/earned/badge/a0995caa-1203-4a75-9463-a69240edb71e">CISCO: Introduction to Cybersecurity</a></li>
             </ul>
 
         </div>
@@ -43,21 +51,47 @@
     </section>
 
 
-    <section id="projects-section" class="project-section">
+    <section id="projects-section" class="projects-section">
         <h2>My Projects</h2>
         <p>I have a student mangement project going on in the background and it's still in development.</p>
     </section>
 
     <section id="contact-section" class="contact-section">
-        <h2>Contact</h2>
+        <h2>Contact me</h2>
+
+        <form>
+            <fieldset>
+                <legend>Contact Form</legend>
+
+                <label for="fname">Name: </label>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Surname: </label>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="visitor-email">Email: </label>
+                <input type="text" id="visitor-email" name="visitor-email"><br>
+
+                <legend>Message</legend>
+                <textarea></textarea><br>
+
+                <button>Submit</button>
+            </fieldset>
+
+        </form>
         <a href="mailto:ronewavhulahani123@gmail.com">Personal Email</a>
         <br>
         <a href="tel:+27722501138">Personal Number</a>
         <br>
-        <a href="https://www.linkedin.com/in/given-vhulahani-7484a6391">LinkedIn Profile</a>
-        <br>
-        <a href="https://github.com/gr-vhulahani">GitHub profile</a>
+        
 
+    </section>
+
+    <section id="social-links" class="social-links">
+        <footer>
+
+           <a href="https://www.linkedin.com/in/given-vhulahani-7484a6391">LinkedIn Profile</a>
+           <br>
+           <a href="https://github.com/gr-vhulahani">GitHub profile</a>
+        </footer>
     </section>
 
     
