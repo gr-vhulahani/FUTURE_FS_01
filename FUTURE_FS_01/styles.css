@@ -11,6 +11,12 @@
     
 }
 
+h1 {
+    color: #E6EDF3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+}
+
 h2 {
     color:#E6EDF3;
     font-family: 'Poppins', sans-serif;
@@ -30,15 +36,23 @@ p, ul {
 
 body {
     background-color: #0D1117;
+    display: flex;
+    flex-direction: column;
 }
 
 button {
-    height: 30px;
-    width: 60px;
-    padding: 10px;
-    border: 2px solid red;
-    margin:10px;
+    
 }
 .centred-div {
-    
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
